@@ -1,0 +1,21 @@
+{
+  "name": "video-stream-party",
+  "version": "1.0.0",
+  "description": "A tool for synchronized video streaming",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/forever index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.13.3",
+    "forever": "^0.15.1",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devclub-iitd/netflixparty-server.git"
+  }
+}
